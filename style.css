@@ -341,7 +341,13 @@ footer {
   margin-bottom: 2rem;
 }
 
-/* MEDIA QUERIES FOR MOBILE DESKTOP */
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 750px) {
+  .welcome {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   nav {
     padding: 1rem 2rem;
